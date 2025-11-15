@@ -1,8 +1,8 @@
-
 import React, { useState, useCallback } from 'react';
 import { Snack } from './types';
 import SnackForm from './components/SnackForm';
 import SnackList from './components/SnackList';
+import SnackSummary from './components/SnackSummary';
 import { LeafIcon } from './components/icons';
 
 const App: React.FC = () => {
@@ -41,6 +41,7 @@ const App: React.FC = () => {
 
           <div className="px-6 md:px-8 pb-6 md:pb-8">
             <SnackList snacks={snacks} onRemoveSnack={handleRemoveSnack} />
+            <SnackSummary snacks={snacks} />
           </div>
         </div>
 
