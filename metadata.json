@@ -1,0 +1,5 @@
+{
+  "name": "SnackTrack",
+  "description": "A simple and elegant web application to log the snacks you eat. Keep track of snack names and their calorie counts with a clean, user-friendly interface.",
+  "requestFramePermissions": []
+}
